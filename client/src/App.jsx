@@ -81,7 +81,6 @@ function App() {
   const [form, setForm] = useState({ name: "", email: "", message: "" });
 
   useEffect(() => {
-    document.documentElement.classList.toggle("dark", dark);
     localStorage.setItem("portfolio-theme", dark ? "dark" : "light");
   }, [dark]);
 
