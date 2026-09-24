@@ -102,6 +102,15 @@ export const experience = [
     ],
   },
   {
+    date: "Jan 2025 — April 2025",
+    title: "Blockchain and its applications",
+    company: " NPTEL | IIT Kharagpur",
+    bullets: [
+      "A 12-week program covering the fundamentals of blockchain",
+      "its core concepts, working principles, and real-world applications.",
+    ],
+  },
+  {
     date: "Aug 2022 — Aug 2025",
     title: "BCA in Cloud Technology and Information Security",
     company: "P.I.E.T. · Panipat, Haryana",
