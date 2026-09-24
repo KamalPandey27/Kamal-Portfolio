@@ -60,7 +60,7 @@ function IconBadge({ children, dark = false }) {
 function Logo() {
   return (
     <div className="flex items-center gap-3">
-      <div className="grid size-11 place-items-center rounded-2xl bg-slate-950 text-xl font-black tracking-tighter text-white shadow-lg shadow-slate-950/15">
+      <div className=" grid size-11 place-items-center rounded-2xl bg-slate-950 text-xl font-black tracking-tighter text-white shadow-lg shadow-slate-950/15">
         KP
       </div>
       <div className="hidden sm:block">
@@ -73,7 +73,7 @@ function Logo() {
 
 function App() {
   const [dark, setDark] = useState(
-    () => localStorage.getItem("portfolio-theme") !== "dark",
+    () => localStorage.getItem("portfolio-theme") !== "light",
   );
   const [menu, setMenu] = useState(false);
   const [sent, setSent] = useState(false);
