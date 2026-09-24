@@ -41,7 +41,7 @@ import {
   technologies,
 } from "./data/portfolio";
 
-const API = import.meta.env.VITE_API_URL || "http://localhost:5000/api";
+const API = import.meta.env.VITE_API_URL;
 
 function IconBadge({ children, dark = false }) {
   return (
@@ -100,7 +100,7 @@ function App() {
     e.preventDefault();
     setSending(true);
     try {
-      const response = await axios.post(`${API}/contact`, form);
+      const response = await axios.post(`${API}/api/contact`, form);
 
       if (response.data.success) {
         setSent(true);
