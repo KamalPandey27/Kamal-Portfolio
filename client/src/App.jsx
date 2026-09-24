@@ -73,7 +73,7 @@ function Logo() {
 
 function App() {
   const [dark, setDark] = useState(
-    () => localStorage.getItem("portfolio-theme") === "dark",
+    () => localStorage.getItem("portfolio-theme") !== "dark",
   );
   const [menu, setMenu] = useState(false);
   const [sent, setSent] = useState(false);
