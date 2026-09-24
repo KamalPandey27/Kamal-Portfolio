@@ -708,7 +708,7 @@ function TechCard({ name, sub, icon }) {
   return (
     <div data-aos="fade-up" data-aos-delay="80">
       <div className="group rounded-3xl border border-white/90 bg-white/65 p-4 text-center shadow-sm backdrop-blur-xl  transition-all ease-in-out duration-300 hover:-translate-y-3 hover:shadow-lg dark:border-white/10 dark:bg-white/[.035]">
-        <div className="mx-auto grid size-12 place-items-center rounded-2xl border border-slate-100 bg-white shadow-sm transition group-hover:scale-105 dark:border-white/10 dark:bg-white/5">
+        <div className="mx-auto grid size-12 place-items-center rounded-2xl border border-slate-100 bg-white shadow-sm transition group-hover:scale-105 dark:border-white/10 ">
           {<TechLogo icon={icon} />}
         </div>
         <p className="mt-3 text-xs font-bold">{name}</p>
