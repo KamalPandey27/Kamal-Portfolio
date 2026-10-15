@@ -91,7 +91,7 @@ export const projects = [
 
 export const experience = [
   {
-    date: "Feb 2025 — May 2025",
+    date: "Jan 2026 — June 2026",
     title: "MERN Stack Developer Intern",
     company: "KNOWLEGIANT™ (powered by Zeenat & Company)!",
     bullets: [
